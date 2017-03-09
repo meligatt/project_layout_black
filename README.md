@@ -20,4 +20,4 @@ test / exercise for Deloitte.
 
 ~~~~~~~~
 * Note for Designer: This is a test, and I know it needs more fine tuning to get the exact styles
-from the high level def mockup.
+from the high fidelity mockup.
