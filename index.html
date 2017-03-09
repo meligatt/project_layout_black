@@ -20,9 +20,9 @@
         </div>
       </nav>
       <div class="slider">
-        <span class="image">
-          <img src="http://placehold.it/960x468" alt="feature image">
-        </span>
+          <div class="image-item hero">
+          <img src="http://placehold.it/960x468" alt="hero image">
+        </div>
       </div>
     </header>
     <section>
@@ -37,46 +37,50 @@
         ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
         in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
-      <button type="button" name="button" class="button button--primary">visit site</button>
+      <button type="button" name="visit-site" class="button button--primary">visit site</button>
       <div class="featured">
-        <span class="image">
-          <img src="http://placehold.it/960x468" alt="feature image">
-        </span>
+        <div class="image-item">
+          <span class="button--open-modal">&plus;</span>
+          <img src="assets/images/img3.jpg" alt="feature image">
+        </div>
         <h4>blurb</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam.</p>
         </div>
         <div class="gallery">
-          <span class="image">
+          <div class="image-item">
             <img src="http://placehold.it/960x468" alt="feature image">
-          </span>
-          <span class="image">
-            <img src="http://placehold.it/480x468" alt="feature image">
-          </span>
-          <span class="image">
-            <img src="http://placehold.it/480x468" alt="feature image">
-          </span>
+          </div>
+          <div class="image-item--half">
+            <div class="image-item">
+              <img src="http://placehold.it/480x468" alt="feature image">
+            </div>
+            <div class="image-item">
+              <img src="http://placehold.it/480x468" alt="feature image">
+            </div>
+          </div>
         </div>
       </section>
-      <section>
-        <h3>breakout area</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam.
-        </p>
-        <span class="image">
+      <section class="breakout-area">
+        <div class="breakout-area__body">
+          <h3>breakout area</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="image-item">
           <img src="http://placehold.it/480x468" alt="feature image" />
-        </span>
+        </div>
       </section>
       <section>
         <header>
           <h2>more layouts</h2>
         </header>
         <div class="featured">
-          <span class="image">
+          <div class="image-item">
             <img src="http://placehold.it/960x468" alt="feature image">
-          </span>
+          </div>
           <h4>blurb</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -84,70 +88,76 @@
           </p>
         </div>
       </section>
-      <section>
-        <div class="gallery">
-          <div class="caption">
-            <caption>image caption 1
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt
-              </p>
-            </caption>
-            <caption>image caption 2
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt
-              </p>
-            </caption>
-            <caption>image caption 3
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt
-              </p>
-            </caption>
+      <section class="gallery-with-caption">
+        <div class="caption-group">
+          <div class="caption-item">
+            image caption 1
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt
+            </p>
           </div>
-          <span class="image">
+          <div class="caption-item">
+            image caption 2
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="caption-item">
+            image caption 3
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="image-item">
             <img src="http://placehold.it/960x468" alt="feature image">
-          </span>
-          <span class="image">
-            <img src="http://placehold.it/480x468" alt="feature image">
-          </span>
-          <span class="image">
-            <img src="http://placehold.it/480x468" alt="feature image">
-          </span>
+          </div>
+          <div class="image-item--half">
+            <div class="image-item">
+              <img src="http://placehold.it/480x468" alt="feature image">
+            </div>
+            <div class="image-item">
+              <img src="http://placehold.it/480x468" alt="feature image">
+            </div>
+          </div>
         </div>
       </section>
       <section id="extras">
         <div class="more-projects">
           <div class="project">
-            <span class="image">
-              <img src="http://placehold.it/230x150" alt="extra project">
-            </span>
+            <div class="image-item">
+              <img src="assets/images/img4.jpg" alt="extra project">
+            </div>
             <h5>project name</h5>
             <p>
               Lorem ipsum dolor sit amet
             </p>
           </div>
           <div class="project">
-            <span class="image">
-              <img src="http://placehold.it/230x150" alt="extra project">
-            </span>
+            <div class="image-item">
+              <img src="assets/images/img5.jpg" alt="extra project">
+            </div>
             <h5>project name</h5>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
           <div class="project">
-            <span class="image">
-              <img src="http://placehold.it/230x150" alt="extra project">
-            </span>
+            <div class="image-item">
+              <img src="assets/images/img6.jpg" alt="extra project">
+            </div>
             <h5>project name</h5>
             <p>
               Lorem ipsum dolor sit amet
             </p>
           </div>
           <div class="project">
-            <span class="image">
-              <img src="http://placehold.it/230x150" alt="extra project">
-            </span>
+            <div class="image-item">
+              <img src="assets/images/img7.jpg" alt="extra project">
+            </div>
             <h5>project name</h5>
             <p>
               Lorem ipsum dolor sit amet
@@ -155,12 +165,29 @@
           </div>
         </div>
       </section>
+
+      <!-- modal -->
+      <div id="image-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close button--close-modal">&times;</span>
+            <h4>modal</h4>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam.
+            </p>
+          </div>
+        </div>
+      </div>
       <footer>
-        <p>
-          (c) deloitte digital 2017
-        </p>
+        <div class="footer-menu">
+         <p>(c) deloitte digital 2017</p>
+        </div>
       </footer>
       </div>
       </div>
+      <script src="assets/javascript/javascript.js"></script>
   </body>
 </html>
