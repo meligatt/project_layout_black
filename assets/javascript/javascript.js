@@ -1,4 +1,4 @@
-// js
+// get the elements:
 const modal = document.querySelector(`#image-modal`);
 const closeModalButton = document.querySelector(`.close`);
 const openModalButton = document.querySelector(`.button--open-modal`);
