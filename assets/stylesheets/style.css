@@ -81,6 +81,12 @@ p {
     padding: 0 10em;
   }
 }
+section {
+  padding: 4em 0;
+}
+.featured .image-item {
+  padding: 2em 0;
+}
 
 .nav-menu {
   display: flex;
@@ -122,7 +128,7 @@ p {
   font-size: 18px;
   font-weight: normal;
   position: absolute;
-  top: 10px;
+  top: 40px;
   right: 10px;
   border: 2px solid #fff;
   padding: 5px 15px;
@@ -134,7 +140,7 @@ p {
     font-size: 28px;
     font-weight: normal;
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 20px;
     border: 2px solid #fff;
     padding: 5px 15px;
@@ -343,4 +349,21 @@ p {
     text-align: right;
     line-height: 1.8em;
   }
+}
+
+.footer-menu p {
+  position: relative;
+  font-size: 1em;
+  color:#444444;
+}
+
+.footer-menu p::before {
+  content: "";
+  position: absolute;
+  width: 9%;
+  height: 1px;
+  bottom: 0;
+  top: -32px;
+  border-bottom: 1px solid #3c3838;
+  margin: 1px 40px;
 }
