@@ -1,6 +1,14 @@
 // js
-const openModal = document.querySelector(`.button--open-modal`);
-openModal.addEventListener('click', (event) => {
+const modal = document.querySelector(`#image-modal`);
+const closeModalButton = document.querySelector(`.close`);
+const openModalButton = document.querySelector(`.button--open-modal`);
 
-  console.log("clicked on a button--open-modal", event.target);
+//ADD Event listeners
+openModalButton.addEventListener('click', (event) => {
+  // toggle style display block/none of the modal element
+  modal.style.display = `block`;
+
+});
+closeModalButton.addEventListener('click', (event) => {
+    modal.style.display = `none`;
 });
