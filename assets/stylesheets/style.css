@@ -6,16 +6,19 @@ body {
   margin: 0;
 }
 
-#page-wrapper {
-  background-color: #1A1A1A;
-  padding: 4em 0;
-  color: #fff;
-}
-
 .container {
    width: 80em;
    margin: 0 auto;
+     background-color: #1A1A1A;
 }
+
 .main {
   text-align: center;
+  padding: 0 10em;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 20px 0;
 }
