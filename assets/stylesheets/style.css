@@ -1,1 +1,21 @@
 /*styles*/
+body {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  margin: 0;
+}
+
+#page-wrapper {
+  background-color: #1A1A1A;
+  padding: 4em 0;
+  color: #fff;
+}
+
+.container {
+   width: 80em;
+   margin: 0 auto;
+}
+.main {
+  text-align: center;
+}
